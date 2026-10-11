@@ -1,0 +1,147 @@
+.humburger {
+    width: 0px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 9.5px 0px 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* visibility: visible; */
+    visibility: hidden;
+}
+
+.l1,
+.l2,
+.l3 {
+    border: solid 1px white;
+    background-color: white;
+    width: 50px;
+    height: 1px;
+}
+
+.block_1 {
+    max-width: 1440px;
+    height: 910px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    /* Обрезает излишки, чтобы заполнить весь блок */
+    background-position: center;
+    /* Центрирует изображение */
+}
+
+.header {
+    max-width: 1440px;
+    height: 90px;
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav {
+    width: 500px;
+    padding-left: 54%;
+    color: white;
+    font-family: testRedular;
+    font-size: 20.5px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.nav_burger {
+    position: absolute;
+    width: max-content;
+    right: 0px;
+    top: 70px;
+    color: white;
+    background-color: rgb(91, 80, 66);
+    font-family: testRedular;
+    font-size: 20.5px;
+    line-height: 50px;
+    margin-right: 0%;
+    margin-left: -30%;
+    visibility: hidden;
+    /* visibility: visible; */
+}
+
+.nav_burger ol {
+    display: block;
+}
+
+.lang {
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    margin-top: 20px;
+    font-family: testBold;
+    font-weight: 800;
+}
+
+.lang span {
+    color: #bdaE82;
+}
+
+ol {
+    display: flex;
+    /* выстраивает все li в строку */
+    list-style: none;
+    /* убирает стандартные маркеры списка */
+
+    /* расстояние между элементами */
+    padding-right: 30px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.block_message {
+    position: relative;
+    top: 250px;
+    left: 80px;
+    width: 500px;
+    height: 330px;
+}
+
+.block_title {
+    font-family: marriweather sans-serif;
+    font-size: 60px;
+    line-height: 120px;
+    font-weight: 500;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.block_about {
+    font-family: testRedular;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.button_style {
+    width: 220px;
+    height: 55px;
+    background-color: #bdae82;
+    color: black;
+    font-family: testRedular;
+    font-size: 18px;
+    line-height: 36x;
+}
+
+.here_me {
+    margin-top: 20px;
+}

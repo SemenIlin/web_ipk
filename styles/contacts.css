@@ -1,0 +1,75 @@
+.contacts {
+    max-width: 1440px;
+    height: 700px;
+    background-image: url(../img/contact/contacts.jpg);
+    background-size: cover;
+    /* Обрезает излишки, чтобы заполнить весь блок */
+    background-position: center;
+    /* Центрирует изображение */
+}
+
+.contacts_message_container {
+    position: relative;
+    width: 450px;
+    height: 445px;
+    left: 67.3%;
+    top: 60px;
+    right: 20px;
+}
+
+.contacts_title {
+    font-family: marriweather sans-serif;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #bdae82;
+    padding-bottom: 40px;
+}
+
+.contacts_email input,
+.contacts_phone input,
+.contacts_message textarea {
+    width: 450px;
+    height: 50px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #bdae82;
+    color: #bdae82;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contacts_email input:focus,
+.contacts_phone input:focus,
+.contacts_message textarea:focus {
+    outline: none;
+}
+
+.contacts_message textarea {
+    height: 100px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.contacts_email input::placeholder,
+.contacts_phone input::placeholder,
+.contacts_message textarea::placeholder {
+    color: #bdae82;
+    font-family: testRedular;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.contacts_send_message {
+    width: 220px;
+    height: 55px;
+    background-color: #bdae82;
+    color: #000000;
+    font-family: testRedular;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #bdae82;
+}

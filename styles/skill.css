@@ -1,0 +1,24 @@
+.skills {
+    background-color: black;
+}
+
+.skill_body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill_line {
+    border: solid 1px #bdae82;
+    width: 20%;
+    height: 1px;
+    background-color: #bdae82;
+}
+
+.about_skill {
+    text-align: center;
+    font-family: testRedular;
+    font-size: 18px;
+    line-height: 36px;
+    color: white;
+}

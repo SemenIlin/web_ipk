@@ -1,0 +1,18 @@
+.modal_window_portfolio[open] {
+    visibility: hidden;
+    width: 80%;
+    height: 60%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Сдвигает блок ровно на его половину назад */
+}

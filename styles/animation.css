@@ -1,0 +1,291 @@
+@keyframes logo_pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logo {
+    animation-name: logo_pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+/* @keyframes skill_icon {
+    0% {
+        transform-origin: 5% 5%;
+    }
+
+    100% {
+        transform: rotate(25deg);
+    }
+} */
+
+@keyframes skill_icon {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes here_me {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    15% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(-5deg);
+    }
+
+    70% {
+        transform: rotate(7deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    90% {
+        transform: rotate(8deg);
+    }
+
+    70% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes portfolio_icon {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes price_animation {
+    0% {
+        transform: translateY(0px)
+    }
+
+    100% {
+        transform: translateY(-50px)
+    }
+}
+
+@keyframes skill_animation {
+    0% {
+        transform: translateX(0px)
+    }
+
+    100% {
+        transform: translateY(10px)
+    }
+}
+
+@keyframes line_1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(17px) rotate(45deg);
+    }
+}
+
+@keyframes line_2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes line_3 {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+}
+
+@keyframes line_3_back {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes line_1_back {
+    0% {
+        transform: translateY(17px) rotate(45deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes line_2_back {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes burger_menu {
+    0% {
+        transform-origin: 50% 0%;
+        transform: scaleY(0)
+    }
+
+    100% {
+        transform-origin: 50% 0%;
+        transform: scaleY(1)
+    }
+}
+
+@keyframes burger_menu_back {
+    0% {
+        transform-origin: 50% 0%;
+        transform: scaleY(1)
+    }
+
+    100% {
+        transform-origin: 50% 0%;
+        transform: scaleY(0)
+    }
+}
+
+.icon_position:hover {
+    animation-name: skill_icon;
+    animation-iteration-count: 1;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards
+}
+
+.here_me {
+    animation-name: here_me;
+    animation-iteration-count: infinite;
+    animation-duration: 2.8s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.here_me:hover {
+    animation-name: none;
+    transform: rotate(0deg);
+}
+
+.portfolio_image:hover {
+    animation-name: portfolio_icon;
+    animation-iteration-count: 1;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards
+}
+
+.price_element:hover {
+    animation-name: price_animation;
+    animation-iteration-count: 1;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards
+}
+
+.skill:hover {
+    animation-name: skill_animation;
+    animation-iteration-count: 1;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards
+}
+
+.line_1 {
+    animation-name: line_1;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line_2 {
+    animation-name: line_2;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line_3 {
+    animation-name: line_3;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line_3_back {
+    animation-name: line_3_back;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line_1_back {
+    animation-name: line_1_back;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line_2_back {
+    animation-name: line_2_back;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.navigation_show {
+    animation-name: burger_menu;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.navigation_hide {
+    animation-name: burger_menu_back;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.burger_a:hover {
+    animation-name: skill_icon;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}

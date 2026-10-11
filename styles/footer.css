@@ -1,0 +1,51 @@
+.footer {
+    background-color: #000000;
+    max-width: 1440px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.git {
+    display: flex;
+    color: white;
+    width: 182px;
+    height: 50px;
+    font-family: testRedular;
+    font-size: 20px;
+    line-height: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.c_symbol {
+    height: 10px;
+}
+
+.footer_text {
+    padding: 0px 10px;
+}
+
+.school {
+    color: white;
+    width: 211px;
+    height: 50px;
+    font-family: testRedular;
+    font-size: 20px;
+    line-height: 50px;
+    padding-top: 50px;
+    padding-left: 28.7%;
+}
+
+.seti {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 27.6%;
+    padding-right: 20px;
+}
+
+.footer_icon {
+    padding: 9px 10px;
+}
